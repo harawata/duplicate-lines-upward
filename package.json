@@ -1,7 +1,7 @@
 {
   "name": "duplicate-lines-upward",
   "main": "./lib/duplicate-lines-upward",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This Atom package adds the default Eclipse key bind of Ctrl+Alt+Up to duplicate lines upward.",
   "activationEvents": [
     "duplicate-lines-upward:duplicate-lines-upward"
