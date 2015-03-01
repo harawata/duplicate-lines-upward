@@ -1,6 +1,6 @@
 module.exports =
   activate: (state) ->
-    atom.workspaceView.command "duplicate-lines-upward:duplicate-lines-upward", => @duplicateLinesUpward()
+    atom.commands.add 'atom-workspace', 'duplicate-lines-upward:duplicate-lines-upward', => @duplicateLinesUpward()
 
   # Duplicate the most recent cursor's current line upward.
   duplicateLinesUpward: ->
