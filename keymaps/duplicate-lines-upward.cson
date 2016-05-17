@@ -9,7 +9,7 @@
 # https://atom.io/docs/latest/advanced/keymaps
 
 '.platform-darwin atom-workspace atom-text-editor:not([mini])':
-  'ctrl-alt-up': 'duplicate-lines-upward:duplicate-lines-upward'
+  'cmd-alt-up': 'duplicate-lines-upward:duplicate-lines-upward'
 
 '.platform-linux atom-workspace atom-text-editor:not([mini])':
   'ctrl-alt-up': 'duplicate-lines-upward:duplicate-lines-upward'
